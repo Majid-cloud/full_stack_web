@@ -1,0 +1,7 @@
+git commands
+
+git init (to make this folder is a git repisitory)
+1. git --version
+2. git status (shows status of git i.e. commited or not)
+3. git add .  (add all files to staging area, mean ready to commit)
+4. git commit -m "first commit"  (commit the file in stag area with a msg first commit)
