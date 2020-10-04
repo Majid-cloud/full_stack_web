@@ -6,3 +6,12 @@ git init (to make this folder is a git repisitory)
 3. git add .  (add all files to staging area, mean ready to commit)
 4. git commit -m "first commit"  (commit the file in stag area with a msg first commit)
 5. git log --oneline  (shows us log of all commits; info about commit)
+6. git checkout ID index.html  (enter 6 digit id of commit and file name to roll back to previous file)
+
+
+#connecting local git with remote i.e. github or bitbucket
+
+1. git remote add origin <url of repo>  (add repo remotely i.e. on github)
+2. git push -u origin master  (push the local repo to remote one on master branch)
+3. git remote rm <remove remote git repo i.e. origin) 
+4. git remote -v (show all git remote repos)
