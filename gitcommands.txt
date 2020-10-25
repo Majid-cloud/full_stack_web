@@ -15,3 +15,14 @@ git init (to make this folder is a git repisitory)
 2. git push -u origin master  (push the local repo to remote one on master branch)
 3. git remote rm <remove remote git repo i.e. origin) 
 4. git remote -v (show all git remote repos)
+
+######################################################
+NPM and node.js
+npm init (to initialize package mgr and next next)
+npm install light-server --save-dev (it tells our project is using light server and save data in package.json for nodejs)
+//inside package.jason it will run npm whenever you write npm start from bash
+script{
+"start":"npm run lite"
+"test": default text
+"lite":"lite-server" 
+}

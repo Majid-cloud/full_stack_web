@@ -1,0 +1,21 @@
+{
+  "name": "full_stack_web",
+  "version": "1.0.0",
+  "description": "\"this is test to git and node\"",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u0016https://github.com/Majid-cloud/full_stack_web"
+  },
+  "author": "Majid",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
